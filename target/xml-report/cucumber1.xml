@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="61.957">
+    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile" time="7.662">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile_2" time="7.547">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager2".......................................passed
+And user enters manager_password "Manager2!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager2" is displayed....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manger_login_test" name="TC_01_reservation_manager_profile_3" time="8.71">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager3".......................................passed
+And user enters manager_password "Manager3!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager3" is displayed....................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Manger_login_test" name="TC_02_reservation_admin_profile" time="9.357">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "admin"..........................................passed
+And user enters manager_password "Techproed123!"............................passed
+And clicks on login button..................................................passed
+And verify login "admin" is displayed.......................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals" time="5.884">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "paris"..........................................failed
+Then close the application..................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(Google_Search_Step_Defs.java:63)
+	at ✽.verify the result has "paris"(file:///C:/Users/aatil/IdeaProjects/cucumber-framwork-21/./src/test/resources/features/day19_capital_search_short_scenario_outline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_2" time="2.206">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "london".........................................failed
+Then close the application..................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(Google_Search_Step_Defs.java:63)
+	at ✽.verify the result has "london"(file:///C:/Users/aatil/IdeaProjects/cucumber-framwork-21/./src/test/resources/features/day19_capital_search_short_scenario_outline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_3" time="2.393">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "berlin".........................................failed
+Then close the application..................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(Google_Search_Step_Defs.java:63)
+	at ✽.verify the result has "berlin"(file:///C:/Users/aatil/IdeaProjects/cucumber-framwork-21/./src/test/resources/features/day19_capital_search_short_scenario_outline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_4" time="1.879">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "ankara".........................................failed
+Then close the application..................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(Google_Search_Step_Defs.java:63)
+	at ✽.verify the result has "ankara"(file:///C:/Users/aatil/IdeaProjects/cucumber-framwork-21/./src/test/resources/features/day19_capital_search_short_scenario_outline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Multiple_google_search" name="searching_word_capitals_5" time="1.555">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given user in on the google page............................................passed
+Given user search for "<world_capital>".....................................passed
+Then verify the result has "baku"...........................................failed
+Then close the application..................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Google_Search_Step_Defs.verify_the_result_has(Google_Search_Step_Defs.java:63)
+	at ✽.verify the result has "baku"(file:///C:/Users/aatil/IdeaProjects/cucumber-framwork-21/./src/test/resources/features/day19_capital_search_short_scenario_outline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Search Functionality" name="TC01_Iphone Search" time="2.911">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+When user search for iPhone.................................................passed
+Then verify the result has iPhone...........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="TC02_tea pot Search" time="5.725">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+And user search for tea pot.................................................passed
+Then verify the result has tea pot..........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search Functionality" name="TC03_flower Search" time="5.658">
+        <system-out>
+            <![CDATA[Given user in on the google page............................................passed
+And user search for flower..................................................passed
+Then verify the result has flower...........................................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

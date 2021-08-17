@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="37.703">
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_01_login_with_manager_profile" time="13.254">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+Given user navigates to create_room_reservation_page........................passed
+And user enters the IDUser "manager"........................................passed
+And user enters the IDHotel "Sierra"........................................passed
+And user enters the price "1000"............................................passed
+And user enters the date_start "07/01/2021".................................passed
+And user enters the date_end "07/03/2021"...................................passed
+And user enters the adult_amount "2"........................................passed
+And user enters the children_amount "3".....................................passed
+And user enters the contact_name "test".....................................passed
+And user enters the contact_phone "(546) 345-6345"..........................passed
+And user enters the contact_email "test@gmail.com"..........................passed
+And user enters the notes "test"............................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message "RoomReservation was inserted successfully".passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_01_login_with_manager_profile_2" time="11.015">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+Given user navigates to create_room_reservation_page........................passed
+And user enters the IDUser "manager"........................................passed
+And user enters the IDHotel "Krystel".......................................passed
+And user enters the price "250".............................................passed
+And user enters the date_start "07/01/2021".................................passed
+And user enters the date_end "08/01/2021"...................................passed
+And user enters the adult_amount "1"........................................passed
+And user enters the children_amount "0".....................................passed
+And user enters the contact_name "My Boss"..................................passed
+And user enters the contact_phone "(999) 345-6345"..........................passed
+And user enters the contact_email "alone@gmail.com".........................passed
+And user enters the notes "Don't bother"....................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message "RoomReservation was inserted successfully".passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User_should_be_able_to_reserve_room" name="TC_01_login_with_manager_profile_3" time="12.977">
+        <system-out>
+            <![CDATA[Given user is on the application_login page.................................passed
+And user enters manager_id "manager"........................................passed
+And user enters manager_password "Manager1!"................................passed
+And clicks on login button..................................................passed
+And verify login "manager" is displayed.....................................passed
+Given user navigates to create_room_reservation_page........................passed
+And user enters the IDUser "manager"........................................passed
+And user enters the IDHotel "Karelle".......................................passed
+And user enters the price "100".............................................passed
+And user enters the date_start "07/01/2021".................................passed
+And user enters the date_end "07/02/2021"...................................passed
+And user enters the adult_amount "2"........................................passed
+And user enters the children_amount "1".....................................passed
+And user enters the contact_name "My Boss"..................................passed
+And user enters the contact_phone "(999) 345-6345"..........................passed
+And user enters the contact_email "both@gmail.com"..........................passed
+And user enters the notes "one day reservation".............................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message "RoomReservation was inserted successfully".passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
